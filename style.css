@@ -1,27 +1,29 @@
-ul li{
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: 300px;
-    justify-content: center;
-    align-items: center;
+ul li {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 300px;
+  justify-content: center;
+  align-items: center;
 }
 
-li a{
-    text-decoration: none;
-    margin-top: 25px;
+li a {
+  text-decoration: none;
+  margin-top: 25px;
 }
-ul{
-    display:flex;
-    justify-content: center;
-    gap: 25px;
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
 }
-h1{
-    text-align: center;
-    color: white;
+h1 {
+  text-align: center;
+  color: white;
 }
-body{
-    background:  linear-gradient(to bottom, green,white,red);
-    background-repeat: no-repeat;
-    height: 100vh;
+body {
+  background: linear-gradient(to bottom, green, white, red);
+  background-repeat: no-repeat;
+  height: 100vh;
 }
+
+/* test */
