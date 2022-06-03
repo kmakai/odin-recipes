@@ -6,30 +6,35 @@
 
 body {
   /* background: linear-gradient(to bottom, green, white, red); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
+  width: 100vw;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 25px;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  width: 550px;
+  width: 400px;
+  height: auto;
 
   box-shadow: 0 0 10px rgba(51, 51, 51, 0.699);
   border-radius: 25px;
   /* padding: 24px; */
+  margin: 10px;
 }
 
 h1 {
-  font-size: 64px;
+  font-size: 18px;
   padding: 18px;
 }
 
 h2 {
-  font-size: 48px;
+  font-size: 24px;
   color: rgb(61, 24, 24);
   padding: 8px 18px;
 }
